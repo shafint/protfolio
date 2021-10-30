@@ -1,0 +1,72 @@
+body.parle_golden_rod .menu {
+    background: #eee8aa;
+}
+
+body.parle_golden_rod .hero {
+    background: #eee8aa;
+}
+
+
+body.parle_golden_rod .about_1st_header p {
+    background-color: #eee8aa;
+}
+
+body.parle_golden_rod .expreance_num h1::before {
+    background-color: #eee8aa;
+}
+
+
+body.parle_golden_rod .demo_hading p {
+    background: #eee8aa;
+}
+
+body.parle_golden_rod .exprence_icons i {
+    color: #eee8aa;
+}
+
+body.parle_golden_rod .resume_first_header p {
+    background-color: #eee8aa;
+}
+
+body.parle_golden_rod .resume_items {
+    border-left: 3px solid #eee8aa;
+}
+
+body.parle_golden_rod .more_about_heading h2 {
+    background-color: #eee8aa;
+}
+
+body.parle_golden_rod .more_khowing_items_numbers {
+    background-color: #eee8aa;
+}
+
+body.parle_golden_rod .skills_items p span {
+    background: #eee8aa;
+}
+
+body.parle_golden_rod ::-moz-selection {
+    /* Code for Firefox */
+    background: #eee8aa;
+    color: #fff;
+}
+
+body.parle_golden_rod ::selection {
+    background: #eee8aa;
+    color: #fff;
+}
+
+body.parle_golden_rod .hire_me_btn button {
+    background-color: #eee8aa;
+}
+
+body.parle_golden_rod section.contact_us_main {
+    background: #eee8aa;
+}
+
+body.parle_golden_rod .color_add_footer {
+    color: #eee8aa
+}
+
+body.parle_golden_rod .faq_txt span {
+    background-color: #eee8aa;
+}

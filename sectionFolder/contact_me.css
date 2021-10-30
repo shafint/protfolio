@@ -1,0 +1,311 @@
+section.contact_us_main {
+    padding: 100px 0px;
+    background: rgb(245, 223, 78);
+}
+
+.contact_us_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact_us_items {
+    width: 50%;
+}
+
+.contact_us_items .contact_heading h1 {
+    font-size: 45px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    color: rgb(33, 37, 41);
+}
+
+.contact_us_pragraph p {
+    font-size: 21px;
+    text-align: left;
+    width: 74%;
+    color: rgb(33, 37, 41);
+    padding-bottom: 55px;
+}
+
+.contact_address h3 {
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(33, 37, 41);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contact_address p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+    margin-bottom: 12px;
+}
+
+.contact_soclial_icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 55px;
+}
+
+.contact_soclial_icons div {
+    margin-right: 14px;
+    position: relative;
+}
+
+.contact_soclial_icons div a {
+    display: block;
+    font-size: 33px;
+    color: rgb(33, 37, 41);
+    transition: all 0.3s ease 0s;
+}
+
+.contact_soclial_icons div:nth-child(1):hover a {
+    color: skyblue;
+    transform: scale(1.1);
+}
+
+.contact_soclial_icons div:nth-child(2):hover a {
+    color: rgb(25, 25, 163);
+    transform: scale(1.1);
+}
+
+.contact_soclial_icons div:nth-child(3):hover a {
+    color: crimson;
+    transform: scale(1.1);
+}
+
+.contact_soclial_icons div:nth-child(4):hover a {
+    transform: scale(1.1);
+}
+
+.contact_2nd_heading h1 {
+    font-size: 45px;
+    margin-bottom: 38px;
+    font-weight: 600;
+    color: rgb(33, 37, 41);
+}
+
+.contact_form form {
+    width: 100%;
+    display: block;
+}
+
+.contact_form form div {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.contact_form form div input {
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    outline: none;
+    height: 50px;
+    font-size: 25px;
+    transition: all 0.3s ease 0s;
+}
+
+.contact_form form div textarea {
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    outline: none;
+    font-size: 25px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    transition: all 0.3s ease 0s;
+}
+
+.contact_form form div label {
+    color: rgb(33, 37, 41);
+}
+
+.contact_form form div input:focus {
+    border-bottom-color: rgb(33, 37, 41);
+    background-color: #fff;
+}
+
+.contact_form form div textarea:focus {
+    border-bottom-color: rgb(33, 37, 41);
+    background-color: #fff;
+}
+
+.form_btn {
+    justify-content: flex-start;
+}
+
+button.form_main_button {
+    width: 149px;
+    font-size: 20px;
+    padding: 15px 0px;
+    color: rgb(255, 255, 255);
+    background: rgb(33, 37, 41);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button.form_main_button i {
+    margin-left: 12px;
+}
+
+.contact_soclial_icons div::before {
+    content: "hellow";
+    position: absolute;
+    top: -40px;
+    background: black;
+    border-radius: 5px;
+    padding: 5px;
+    left: -12px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.contact_soclial_icons div::after {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background: black;
+    top: -22px;
+    left: 7px;
+    transform: rotate(46deg);
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.contact_soclial_icons div:nth-child(1)::before {
+    content: "Twitter";
+}
+
+.contact_soclial_icons div:nth-child(2)::before {
+    content: "Facebook";
+}
+
+.contact_soclial_icons div:nth-child(3)::before {
+    content: "Instagram";
+}
+
+.contact_soclial_icons div:nth-child(4)::before {
+    content: "Github";
+}
+.contact_soclial_icons div:nth-child(5)::before {
+    content: "LinkedIn";
+}
+
+.contact_soclial_icons div:hover::before,
+.contact_soclial_icons div:hover::after {
+    opacity: 1;
+}
+.contact_form form div input {
+    font-size: 16px;
+}
+
+.contact_form form div textarea {
+    font-size: 16px;
+}
+
+@media (max-width: 992px) {
+    .contact_us_wrapper {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    .contact_us_items {
+        width: 100% !important;
+    }
+
+    .contact_us_items .contact_heading h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .contact_us_pragraph p {
+        font-size: 17px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact_address h3 {
+        font-size: 21px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contact_address p {
+        text-align: center;
+    }
+
+    .contact_soclial_icons {
+        justify-content: center;
+    }
+
+    .contact_soclial_icons div {
+        margin-right: 14px;
+    }
+
+    .contact_2nd_heading h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .contact_form form div {
+        display: flex;
+        flex-flow: column;
+        margin-bottom: 21px;
+        width: 100% !important;
+    }
+
+    .contact_form form div input {
+        background: transparent;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        border-bottom: 1px solid rgb(194, 194, 194);
+        outline: none;
+        height: 50px;
+        font-size: 25px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .contact_form form div textarea {
+        background: transparent;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        outline: none;
+        font-size: 25px;
+        border-bottom: 1px solid rgb(194, 194, 194);
+        transition: all 0.3s ease 0s;
+    }
+
+    .contact_form form div label {
+        color: rgb(33, 37, 41);
+    }
+}
+
+
+
+/* map */
+section.Google_map {
+    width: 100% !important;
+    height: 60vh;
+    display: block;
+}
+section.Google_map iframe {
+    width: 100%;
+    height: 100%;
+}

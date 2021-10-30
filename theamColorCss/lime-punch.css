@@ -1,0 +1,72 @@
+body.lime_punch .menu {
+    background: #d6ed17;
+}
+
+body.lime_punch .hero {
+    background: #d6ed17;
+}
+
+body.lime_punch .about_1st_header p {
+    background-color: #d6ed17;
+}
+
+body.lime_punch .expreance_num h1::before {
+    background-color: #d6ed17;
+}
+
+
+body.lime_punch .demo_hading p {
+    background: #d6ed17;
+}
+
+body.lime_punch .exprence_icons i {
+    color: #d6ed17;
+}
+
+body.lime_punch .resume_first_header p {
+    background-color: #d6ed17;
+}
+
+body.lime_punch .resume_items {
+    border-left: 3px solid #d6ed17;
+}
+
+
+body.lime_punch .more_about_heading h2 {
+    background-color: #d6ed17;
+}
+
+body.lime_punch .more_khowing_items_numbers {
+    background-color: #d6ed17;
+}
+
+body.lime_punch .skills_items p span {
+    background: #d6ed17;
+}
+
+body.lime_punch ::-moz-selection {
+    /* Code for Firefox */
+    background: #d6ed17 !important;
+    color: #fff;
+}
+
+body.lime_punch ::selection {
+    background: #d6ed17 !important;
+    color: #fff;
+}
+
+body.lime_punch .hire_me_btn button {
+    background-color: #d6ed17;
+}
+
+body.lime_punch section.contact_us_main {
+    background: #d6ed17;
+}
+
+body.lime_punch .color_add_footer {
+    color: #d6ed17
+}
+
+body.lime_punch .faq_txt span {
+    background-color: #d6ed17;
+}

@@ -1,0 +1,74 @@
+body.reset_default_yellow .menu {
+    background: #f5df4e;
+}
+
+body.reset_default_yellow .hero {
+    background: #f5df4e;
+}
+
+body.reset_default_yellow .about_1st_header p {
+    background-color: #f5df4e;
+}
+
+body.reset_default_yellow .expreance_num h1::before {
+    background-color: #f5df4e;
+}
+
+
+
+body.reset_default_yellow .demo_hading p {
+    background: #f5df4e;
+}
+
+body.reset_default_yellow .exprence_icons i {
+    color: #f5df4e;
+}
+
+
+body.reset_default_yellow .resume_first_header p {
+    background-color: #f5df4e;
+}
+
+body.reset_default_yellow .resume_items {
+    border-left: 3px solid #f5df4e;
+}
+
+
+body.reset_default_yellow .more_about_heading h2 {
+    background-color: #f5df4e;
+}
+
+body.reset_default_yellow .more_khowing_items_numbers {
+    background-color: #f5df4e;
+}
+
+body.reset_default_yellow .skills_items p span {
+    background: #f5df4e;
+}
+
+body.reset_default_yellow ::-moz-selection {
+    /* Code for Firefox */
+    background: #f5df4e;
+    color: #fff;
+}
+
+body.reset_default_yellow ::selection {
+    background: #f5df4e;
+    color: #fff;
+}
+
+body.reset_default_yellow .hire_me_btn button {
+    background-color: #f5df4e;
+}
+
+body.reset_default_yellow section.contact_us_main {
+    background: #f5df4e;
+}
+
+body.reset_default_yellow .color_add_footer {
+    color: #f5df4e
+}
+
+body.reset_default_yellow .faq_txt span {
+    background-color: #f5df4e;
+}

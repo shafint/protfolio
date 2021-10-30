@@ -1,0 +1,71 @@
+body.green_Yellow .menu {
+    background: #adff2f;
+}
+
+body.green_Yellow .hero {
+    background: #adff2f;
+}
+
+body.green_Yellow .about_1st_header p {
+    background-color: #adff2f;
+}
+
+body.green_Yellow .expreance_num h1::before {
+    background-color: #adff2f;
+}
+
+body.green_Yellow .demo_hading p {
+    background: #adff2f;
+}
+
+body.green_Yellow .exprence_icons i {
+    color: #adff2f;
+}
+
+
+body.green_Yellow .resume_first_header p {
+    background-color: #adff2f;
+}
+
+body.green_Yellow .resume_items {
+    border-left: 3px solid #adff2f;
+}
+
+body.green_Yellow .more_about_heading h2 {
+    background-color: #adff2f;
+}
+
+body.green_Yellow .more_khowing_items_numbers {
+    background-color: #adff2f;
+}
+
+body.green_Yellow .skills_items p span {
+    background: #adff2f;
+}
+
+body.green_Yellow ::-moz-selection {
+    /* Code for Firefox */
+    background: #adff2f;
+    color: #fff;
+}
+
+body.green_Yellow ::selection {
+    background: #adff2f;
+    color: #fff;
+}
+
+body.green_Yellow .hire_me_btn button {
+    background-color: #adff2f;
+}
+
+body.green_Yellow section.contact_us_main {
+    background: #adff2f;
+}
+
+body.green_Yellow .color_add_footer {
+    color: #adff2f
+}
+
+body.green_Yellow .faq_txt span {
+    background-color: #adff2f;
+}

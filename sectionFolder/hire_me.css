@@ -1,0 +1,27 @@
+.hire_me {
+    background: linear-gradient(#0000008f, #00000091), url("../image//photo-1517694712202-14dd9538aa97.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+}
+.Heading_align{
+    font-size: 28px;
+}
+.hire_me h1 {
+    text-align: center;
+}
+@media (max-width: 576px) {
+    .Heading_align{
+        font-size: 28px;
+    }
+    h1.inti.aos-init.aos-animate {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,75 @@
+body.orange .menu {
+    background: #fdbb2e;
+}
+
+body.orange .hero {
+    background: #fdbb2e;
+}
+
+
+body.orange .about_1st_header p {
+    background-color: #fdbb2e;
+}
+
+body.orange .expreance_num h1::before {
+    background-color: #fdbb2e;
+}
+
+
+body.orange .demo_hading p {
+    background: #fdbb2e;
+}
+
+body.orange .exprence_icons i {
+    color: #fdbb2e;
+}
+
+
+
+body.orange .resume_first_header p {
+    background-color: #fdbb2e;
+}
+
+body.orange .resume_items {
+    border-left: 3px solid #fdbb2e;
+}
+
+
+body.orange .more_about_heading h2 {
+    background-color: #fdbb2e;
+}
+
+body.orange .more_khowing_items_numbers {
+    background-color: #fdbb2e;
+}
+
+body.orange .skills_items p span {
+    background: #fdbb2e;
+}
+
+body.orange ::-moz-selection {
+    /* Code for Firefox */
+    background: #fdbb2e;
+    color: #fff;
+}
+
+body.orange ::selection {
+    background: #fdbb2e;
+    color: #fff;
+}
+
+body.orange .hire_me_btn button {
+    background-color: #fdbb2e;
+}
+
+body.orange section.contact_us_main {
+    background: #fdbb2e;
+}
+
+body.orange .color_add_footer {
+    color: #fdbb2e
+}
+
+body.orange .faq_txt span {
+    background-color: #fdbb2e;
+}

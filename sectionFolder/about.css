@@ -1,0 +1,209 @@
+section.About_me {
+    padding: 8rem 0rem;
+}
+
+.about_1st_header {
+    display: flex;
+    justify-content: center;
+}
+
+.about_1st_header p {
+    background: #f5df4e;
+    color: #343a40;
+    padding: 1px 5px;
+}
+
+.about_2nd_header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #212529;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.about_me_items {
+    display: flex;
+    margin-top: 3rem;
+}
+
+
+.first_about_items_header {
+    width: 65%;
+}
+
+.about_me_2nd_items {
+    width: 35%;
+}
+
+.first_about_items_header h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.first_about_items_header h1 span {
+    font-weight: 700;
+}
+
+.first_about_items_header p {
+    color: #212529;
+    font-size: 21px;
+    line-height: 37.8px;
+    margin: 0px 0px 16px;
+    text-align: left
+}
+
+.about_me_2nd_items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+}
+
+.expreance_num h1 {
+    font-size: 158px;
+    position: relative;
+    font-weight: 600;
+    color: #4c4d4d;
+}
+
+.expreance_num h1::before {
+    position: absolute;
+    content: "";
+    width: 120px;
+    top: 51px;
+    height: 120px;
+    background: #f5df4e;
+    border-radius: 50%;
+    left: 17px;
+    z-index: -1;
+}
+
+h2.explain_txt {
+    margin-top: -35px;
+    font-size: 28px;
+    color: #212529;
+    font-family: Poppins;
+    text-align: center;
+    font-weight: 400;
+}
+
+h2.explain_txt span {
+    color: #212529;
+    display: inline;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: center
+}
+
+.info_prent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 2px;
+    flex-wrap: wrap;
+}
+
+.info_items p {
+    color: #6c757d;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: left
+}
+
+.info_items h1 {
+    color: #343a40;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.4px;
+    text-align: left
+}
+
+.info_items {
+    box-shadow: 3px 2px 18px -5px #ddd;
+    padding: 5px 40px;
+    color: #212529;
+}
+
+
+
+
+@media (max-width:808px) {
+    .about_me_items {
+        flex-flow: column;
+    }
+
+    .first_about_items_header {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .about_me_2nd_items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        width: 100%;
+    }
+
+    .first_about_items_header {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about_me_explain {
+        width: 100%;
+    }
+
+    .about_me_explain p {
+        text-align: center;
+    }
+
+    .info_items {
+        width: 50%;
+    }
+}
+
+
+@media (max-width:576px) {
+
+    .first_about_items_header h1 {
+        font-size: 30px;
+    }
+
+    .about_2nd_header h1 {
+        font-size: 30px;
+    }
+
+    .about_me_items {
+        margin-top: 10px;
+    }
+
+    .info_items {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .info_prent {
+        justify-content: center;
+    }
+
+    .info_items:nth-child(2) h3 {
+        font-size: 15px;
+    }
+    .about_me_explain p {
+        text-align: justify;
+        font-size: 17px;
+    }
+}

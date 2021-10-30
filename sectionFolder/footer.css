@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+    background: #212529;
+}
+
+.wrapper_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    height: 150px;
+    font-size: 20px;
+}
+
+.color_add_footer {
+    color: #f5df4e;
+}
+
+
+@media (max-width:768px) {
+    .wrapper_footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: #fff;
+        height: 150px;
+        font-size: 20px;
+        flex-flow: column;
+        text-align: center;
+    }
+}

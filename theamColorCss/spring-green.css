@@ -1,0 +1,74 @@
+body.spring_green .menu {
+    background: #00fe9c;
+}
+
+body.spring_green .hero {
+    background: #00fe9c;
+}
+
+body.spring_green .about_1st_header p {
+    background-color: #00fe9c;
+}
+
+body.spring_green .expreance_num h1::before {
+    background-color: #00fe9c;
+}
+
+
+body.spring_green .demo_hading p {
+    background: #00fe9c;
+}
+
+body.spring_green .exprence_icons i {
+    color: #00fe9c;
+}
+
+
+body.spring_green .resume_first_header p {
+    background-color: #00fe9c;
+}
+
+body.spring_green .resume_items {
+    border-left: 3px solid #00fe9c;
+}
+
+
+
+body.spring_green .more_about_heading h2 {
+    background-color: #00fe9c;
+}
+
+body.spring_green .more_khowing_items_numbers {
+    background-color: #00fe9c;
+}
+
+body.spring_green .skills_items p span {
+    background: #00fe9c;
+}
+
+body.spring_green ::-moz-selection {
+    /* Code for Firefox */
+    background: #00fe9c;
+    color: #fff;
+}
+
+body.spring_green ::selection {
+    background: #00fe9c;
+    color: #fff;
+}
+
+body.spring_green .hire_me_btn button {
+    background-color: #00fe9c;
+}
+
+body.spring_green section.contact_us_main {
+    background: #00fe9c;
+}
+
+body.spring_green .color_add_footer {
+    color: #00fe9c
+}
+
+body.spring_green .faq_txt span {
+    background-color: #00fe9c;
+}

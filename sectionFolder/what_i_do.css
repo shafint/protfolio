@@ -1,0 +1,81 @@
+.what_i_do {
+    background: #f8f9fa !important;
+    padding-top: 110px !important;
+}
+
+.demo_hading {
+    display: flex;
+    justify-content: center;
+}
+
+.second_demo_heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    color: #212529;
+}
+
+.my_exprence_prent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.my_exprence_items {
+    width: 360px;
+    color: rgb(33, 37, 41);
+    line-height: 24px;
+    padding: 23px 24px;
+    text-align: center;
+    box-shadow: 1px 5px 17px -7px black;
+    margin-bottom: 42px;
+}
+
+.exprence_icons {
+    display: flex;
+    justify-content: center;
+}
+
+.my_exprence_items h1 {
+    text-align: center;
+}
+
+.my_exprence_items p {
+    text-align: center;
+}
+
+.exprence_icons i {
+    font-size: 60px;
+}
+
+.demo_hading p {
+    background: rgb(245, 223, 78);
+    padding: 2px 5px;
+    margin-bottom: 20px;
+}
+
+.exprence_icons i {
+    color: rgb(245, 223, 78);
+}
+
+.my_exprence_items h1 {
+    color: rgb(33, 37, 41);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    margin: 24px 0px 16px;
+    text-align: center;
+}
+
+.more_about_me_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #fff;
+    z-index: 1;
+}
