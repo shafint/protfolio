@@ -427,6 +427,7 @@ li.main_menus a:hover {
     font-weight: 500;
     height: 43px;
     padding: 5px 10px;
+    cursor: pointer;
 }
 
 .color_setting_icons_parent i {
