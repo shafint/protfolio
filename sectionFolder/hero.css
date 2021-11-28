@@ -97,7 +97,9 @@ button {
     padding: 5px 0px;
     background-color: rgb(245, 223, 78);
 }
-
+img.logo-img {
+    cursor: pointer;
+}
 .menu_wraper {
     display: flex;
     justify-content: space-between;
